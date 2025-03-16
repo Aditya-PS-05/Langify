@@ -12,11 +12,14 @@ require (
 	github.com/aws/jsii-runtime-go v1.109.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt/v5 v5.2.1
+	github.com/google/uuid v1.6.0
 	golang.org/x/crypto v0.36.0
+	golang.org/x/oauth2 v0.28.0
 	gorm.io/gorm v1.25.12
 )
 
 require (
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/Masterminds/semver/v3 v3.3.1 // indirect
 	github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2 v2.2.227 // indirect
 	github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2 v2.1.0 // indirect

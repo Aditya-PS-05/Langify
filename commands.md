@@ -19,7 +19,6 @@ Notification-Service → SNS/SQS + Lambda
 
 GOOS=linux GOARCH=arm64 go build -o main services/auth-service/main.go
 
-
 langify-backend/
 └── langify-auth-service/
     ├── go.mod           // This is the only go.mod file
@@ -32,3 +31,8 @@ langify-backend/
     │       └── main.go
     └── stacks/
         └── AuthStack.ts
+
+
+npx sst dev
+
+npx sst deploy
