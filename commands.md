@@ -36,3 +36,40 @@ langify-backend/
 npx sst dev
 
 npx sst deploy
+
+ User Opens App
+       │
+       ▼
+  Check Access Token
+       │
+       ├──✅ Valid → Continue
+       │
+       ├──❌ Expired
+       │       │
+       │       ▼
+       │   Use Refresh Token
+       │       │
+       │       ├──✅ Valid → Get New Access Token
+       │       │
+       │       ├──❌ Expired → Force Login Again
+       │
+       ▼
+  Make API Requests ✅
+
+
+langify-mobile/
+  ├── App.js
+  ├── package.json
+  ├── src/
+  │   ├── screens/
+  │   │   ├── LoginScreen.js
+  │   │   ├── RegisterScreen.js
+  │   │   ├── HomeScreen.js
+  │   ├── navigation/
+  │   │   ├── AuthStack.js
+  │   ├── context/
+  │   │   ├── AuthContext.js
+  │   ├── utils/
+  │   │   ├── api.js
+  ├── assets/
+  ├── .env
