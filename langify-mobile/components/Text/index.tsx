@@ -5,17 +5,23 @@ const MyText = styled(Text, {
   ff: "$EpilogueRegular",
   variants: {
     size: {
+      s: {},
       textxs: {
-        fos: "$1",
-        fow: "400",
-      },
-      s: {
-        fos: "$2",
+        fontSize: "$1",
+        lineHeight: 16, // Use numeric values for lineHeight
         fow: "400",
       },
       textmd: {
-        fos: "$4",
-        fow: "600",
+        fontSize: "$4",
+        lineHeight: 22, // Use numeric values for lineHeight
+        fow: "400",
+      },
+      // Keep the dynamic variant option for custom values
+      "...": (value) => {
+        return {
+          fontSize: value,
+          fow: "400",
+        };
       },
     },
   } as const,

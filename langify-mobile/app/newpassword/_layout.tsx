@@ -24,7 +24,7 @@ export default function NewPasswordPage() {
                     maw="100%"
                   />
                   <Heading size="s" tag="h1" ff="$ProductSansBold" fos="$8" fow="700" f={1} mr={48} ta="center">
-                    sova.
+                    Langify.
                   </Heading>
                 </XStack>
               );
@@ -39,7 +39,7 @@ export default function NewPasswordPage() {
             Enter a new password
           </Text>
           <XStack mt={40} gap="$2" als="stretch" ai="flex-start">
-            <Text size="textxs" fos="$1" fow="500">
+            <Text size="s" fos="$1" fow="500">
               Password
             </Text>
             <Input shape="round">
@@ -51,7 +51,7 @@ export default function NewPasswordPage() {
             </Input>
           </XStack>
           <XStack mt={24} gap="$2" als="stretch" ai="flex-start">
-            <Text size="textxs" fos="$1" fow="500">
+            <Text size="s" fos="$1" fow="500">
               Repeat Password
             </Text>
             <Input shape="round">

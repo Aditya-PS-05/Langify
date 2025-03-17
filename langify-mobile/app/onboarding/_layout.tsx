@@ -13,7 +13,7 @@ export default function OnboardingPage() {
         <YStack pt={50} f={1} ai="center" px="$4">
           <Heading size="md" tag="h1" color="$blue_a700_02" mt={28} ff="$ProductSansBold" fos="$10" fow="700">
             <Heading size="md" tag="span" color="$blue_a700_02" ff="$ProductSansBold" fos="$10" fow="700">
-              sova
+            Langify
             </Heading>
             <Heading size="md" tag="span" color="$deep_orange_a200" ff="$ProductSansBold" fos="$10" fow="700">
               .
@@ -30,7 +30,7 @@ export default function OnboardingPage() {
           />
 
           <Heading mt={52} fos="$6" fow="700">
-            Welcome to Sova
+            Welcome to Langify
           </Heading>
 
           <Text color="$gray_600" mt={12} mr={6} ta="center" fos="$2" fow="400" als="flex-end" lh={17}>

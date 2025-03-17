@@ -22,16 +22,16 @@ const CheckboxField = styled(TCheckbox, {
         w: 20,
       },
     },
-  },
+    variant: {},
+  } as const,
   defaultVariants: {
     size: "xs",
   },
 });
 
-
 const CheckboxLabel = styled(TLabel, {
   name: "CheckboxLabel",
-  ff: "EpilogueRegular" as any,
+  ff: "$EpilogueRegular" as any,
   flexShrink: 1,
 });
 

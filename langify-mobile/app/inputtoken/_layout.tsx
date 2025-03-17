@@ -26,7 +26,7 @@ export default function InputTokenPage() {
                                     maw="100%"
                                 />
                                 <Heading size="s" tag="h1" ff="$ProductSansBold" fos="$8" fow="700" f={1} mr={48} ta="center">
-                                    sova.
+                                    Langify.
                                 </Heading>
                             </XStack>
                         );
@@ -69,12 +69,12 @@ export default function InputTokenPage() {
                 <Button shape="round" mt={38}>
                     Submit
                 </Button>
-                <Text size="textmd" color="$blue_a200" mt={36} ff="$SFProDisplayMedium" ta="center" fos="$3" fow="500" lh="32">
-                    <Text size="textmd" tag="span" color="$gray_600" ff="$Epilogue-Regular" ta="center" fos="$3" fow="400">
+                <Text size="s" color="$blue_a200" mt={36} ff="$SFProDisplayMedium" ta="center" fos="$3" fow="500" lh="32">
+                    <Text size="s" tag="span" color="$gray_600" ff="$Epilogue-Regular" ta="center" fos="$3" fow="400">
                         Didn't receive an email?{"\n"}
                     </Text>
                 </Text>
-                <Text size="textmd" tag="span" color="$indigo_a700" ff="$Epilogue-Regular" ta="center" fos="$3" fow="400">
+                <Text size="s" tag="span" color="$indigo_a700" ff="$Epilogue-Regular" ta="center" fos="$3" fow="400">
                     &nbsp;
                     Resend
                 </Text>

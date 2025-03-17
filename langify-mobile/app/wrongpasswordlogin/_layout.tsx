@@ -6,7 +6,7 @@ export default function WrongPasswordLogInPage() {
     <YStack h="100%" bg="$white_a700">
       <YStack h="100%" pt={32} gap="$5" ai="center" f={1} pl="$4">
         <Heading size="s" tag="h1" ff="$ProductSansBold" fos="$8" fow="700" color="$indigo_a700">
-          sova
+        Langify
         </Heading>
         <Heading size="s" tag="span" ff="$ProductSansBold" fos="$8" fow="700" color="$deep_orange_a200">
         </Heading>
@@ -20,11 +20,11 @@ export default function WrongPasswordLogInPage() {
           Log in to your account
         </Text>
 
-        <Text size="textxs" mt={40} fos="$1" fow="500" als="flex-start">
-          <Text size="textxs" tag="span" fos="$1" fow="500" color="$gray_800">
+        <Text size="s" mt={40} fos="$1" fow="500" als="flex-start">
+          <Text size="s" tag="span" fos="$1" fow="500" color="$gray_800">
             Email
           </Text>
-          <Text size="textxs" tag="span" fos="$1" fow="500" color="$red_700_01">
+          <Text size="s" tag="span" fos="$1" fow="500" color="$red_700_01">
             *
           </Text>
         </Text>
@@ -37,11 +37,11 @@ export default function WrongPasswordLogInPage() {
           />
         </Input>
 
-        <Text size="textxs" color="$red_700" mt={24} fos="$1" fow="500" als="flex-start">
-          <Text size="textxs" tag="span" color="$red_700" fos="$1" fow="500">
+        <Text size="s" color="$red_700" mt={24} fos="$1" fow="500" als="flex-start">
+          <Text size="s" tag="span" color="$red_700" fos="$1" fow="500">
             Wrong Password
           </Text>
-          <Text size="textxs" tag="span" color="$red_700_01" fos="$1" fow="500">
+          <Text size="s" tag="span" color="$red_700_01" fos="$1" fow="500">
             *
           </Text>
         </Text>
@@ -79,14 +79,14 @@ export default function WrongPasswordLogInPage() {
           Log In
         </Button>
 
-        <Text size="textmd" color="blue_a200" mt={28} ff="$SFProDisplayMedium" fos="$3" fow="500">
-          <Text size="textmd" tag="span" color="$gray_600" ff="$Epilogue-Regular" fos="$3" fow="400">
+        <Text size="s" color="blue_a200" mt={28} ff="$SFProDisplayMedium" fos="$3" fow="500">
+          <Text size="s" tag="span" color="$gray_600" ff="$Epilogue-Regular" fos="$3" fow="400">
             Don’t have an account?
           </Text>
-          <Text size="textmd" tag="span" color="$indigo_a700" ff="$Epilogue-Regular" fos="$3" fow="400">
+          <Text size="s" tag="span" color="$indigo_a700" ff="$Epilogue-Regular" fos="$3" fow="400">
             &nbsp;
           </Text>
-          <Text size="textmd" tag="span" color="$indigo_a700" ff="$Epilogue-Bold" fos="$3" fow="700">
+          <Text size="s" tag="span" color="$indigo_a700" ff="$Epilogue-Bold" fos="$3" fow="700">
             Sign Up
           </Text>
         </Text>

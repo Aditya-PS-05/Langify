@@ -12,7 +12,7 @@ export default function SignUpPage() {
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <YStack pt={32} f={1} ai="center" px="$4">
           <Heading size="s" tag="h1" ff="$ProductSansBold" fos="$8" fow="700" color="$indigo_a700">
-            sova
+            Langify
           </Heading>
           <Heading size="s" tag="span" ff="$ProductSansBold" fos="$8" fow="700" color="$deep_orange_a200" />
           <Heading color="$gray_800" mt={30} fos="$6" fow="700">

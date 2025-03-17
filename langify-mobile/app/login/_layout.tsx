@@ -12,7 +12,7 @@ export default function LogInPage() {
             <YStack h="100%" pt={32} gap="$5" ai="center" f={1} px="$4">
                 <Heading size="s" tag="h1" ff="$ProductSansBold" fos="$8" fow="700">
                     <Heading size="s" tag="span" ff="$ProductSansBold" fos="$8" fow="700" color="$indigo_a700">
-                        sova
+                    Langify
                     </Heading>
                     <Heading size="s" tag="span" ff="$ProductSansBold" fos="$8" fow="700" color="$deep_orange_a2">
                         .
@@ -27,11 +27,11 @@ export default function LogInPage() {
                         Log in to your account
                     </Text>
 
-                    <Text size="textxs" mt={40} fos="$1" fow="500" als="flex-start">
-                        <Text size="textxs" tag="span" fos="$1" fow="500" color="$gray_800">
+                    <Text size="s" mt={40} fos="$1" fow="500" als="flex-start">
+                        <Text size="s" tag="span" fos="$1" fow="500" color="$gray_800">
                             Email
                         </Text>
-                        <Text size="textxs" tag="span" fos="$1" fow="500" color="$red_700_01">
+                        <Text size="s" tag="span" fos="$1" fow="500" color="$red_700_01">
                             *
                         </Text>
                     </Text>
@@ -46,11 +46,11 @@ export default function LogInPage() {
 
 
 
-                    <Text size="textxs" mt={24} fos="$1" fow="500" als="flex-start">
-                        <Text size="textxs" tag="span" fos="$1" fow="500" color="$gray_800">
+                    <Text size="s" mt={24} fos="$1" fow="500" als="flex-start">
+                        <Text size="s" tag="span" fos="$1" fow="500" color="$gray_800">
                             Password
                         </Text>
-                        <Text size="textxs" tag="span" fos="$1" fow="500" color="$red_700_01">
+                        <Text size="s" tag="span" fos="$1" fow="500" color="$red_700_01">
                             *
                         </Text>
                     </Text>
@@ -89,14 +89,14 @@ export default function LogInPage() {
                         Log In
                     </Button>
 
-                    <Text size="textmd" color="$blue_a200" mt={28} ff="$SFProDisplayMedium" fos="$3" fow="500">
-                        <Text size="textmd" tag="span" color="$gray_600" ff="$Epilogue-Regular" fos="$3" fow="400">
+                    <Text size="s" color="$blue_a200" mt={28} ff="$SFProDisplayMedium" fos="$3" fow="500">
+                        <Text size="s" tag="span" color="$gray_600" ff="$Epilogue-Regular" fos="$3" fow="400">
                             Don’t have an account?
                         </Text>
-                        <Text size="textmd" tag="span" color="$indigo_a700" ff="$Epilogue-Regular" fos="$3" fow="400">
+                        <Text size="s" tag="span" color="$indigo_a700" ff="$Epilogue-Regular" fos="$3" fow="400">
                             &nbsp;
                         </Text>
-                        <Text size="textmd" tag="span" color="$indigo_a700" ff="$Epilogue-Bold" fos="$3" fow="700" onPress={() => navigation.navigate("signup")}>
+                        <Text size="s" tag="span" color="$indigo_a700" ff="$Epilogue-Bold" fos="$3" fow="700" onPress={() => navigation.navigate("signup")}>
                             Sign Up
                         </Text>
                     </Text>
