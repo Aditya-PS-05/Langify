@@ -73,3 +73,21 @@ langify-mobile/
   │   │   ├── api.js
   ├── assets/
   ├── .env
+
+  # 1️⃣ Create a new Expo project
+npx create-expo-app langify-mobile
+
+# 2️⃣ Navigate into the project
+cd langify-mobile
+
+# 3️⃣ Install required dependencies
+npm install @react-navigation/native @react-navigation/native-stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context react-native-vector-icons
+
+# 4️⃣ Install AsyncStorage for storing auth tokens
+npm install @react-native-async-storage/async-storage
+
+# 5️⃣ Install dotenv for environment variables
+npm install react-native-dotenv
+
+# 6️⃣ Start the Expo app
+npx expo start
