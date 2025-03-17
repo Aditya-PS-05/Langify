@@ -1,0 +1,48 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("./assets/fonts/EpilogueBold.ttf");
+    font-family: "Epilogue-Bold";
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("./assets/fonts/EpilogueRegular.ttf");
+    font-family: "Epilogue-Regular";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("./assets/fonts/EpilogueMedium.ttf");
+    font-family: "Epilogue-Medium";
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("./assets/fonts/EpilogueRomanMedium.ttf");
+    font-family: "EpilogueRoman-Medium";
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("./assets/fonts/EpilogueRomanBold.ttf");
+    font-family: "EpilogueRoman-Bold";
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("./assets/fonts/EpilogueRomanSemiBold.ttf");
+    font-family: "EpilogueRoman-SemiBold";
+    font-weight: 600;
+  }
+  
