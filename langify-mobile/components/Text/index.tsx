@@ -12,7 +12,7 @@ const MyText = styled(Text, {
         fow: "400",
       },
       textmd: {
-        fontSize: "$4",
+        fontSize: "$1",
         lineHeight: 22, // Use numeric values for lineHeight
         fow: "400",
       },

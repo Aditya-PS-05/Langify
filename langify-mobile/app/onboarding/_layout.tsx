@@ -10,7 +10,7 @@ export default function OnboardingPage() {
   return (
     <YStack bg="$white_a700" f={1}>
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
-        <YStack pt={50} f={1} ai="center" px="$4">
+        <YStack pt={50} f={1} ai="center" px="64">
           <Heading size="md" tag="h1" color="$blue_a700_02" mt={28} ff="$ProductSansBold" fos="$10" fow="700">
             <Heading size="md" tag="span" color="$blue_a700_02" ff="$ProductSansBold" fos="$10" fow="700">
             Langify
@@ -53,7 +53,7 @@ export default function OnboardingPage() {
           <Button
             shape="round"
             mt={16}
-            onPress={() => navigation.navigate("login")}
+            onPress={() => navigation.navigate("home")}
           >
             Log in
           </Button>

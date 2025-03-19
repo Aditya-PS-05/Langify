@@ -38,7 +38,7 @@ export default function ForgotPasswordPage() {
         }}
       />
 
-      <YStack h="100%" pt={28} ai="center" f={1} px="$4">
+      <YStack h="100%" pt={28} ai="center" f={1} px="64">
         <Heading tag="h1" color="$gray_800" fos="$6" fow="700">
           Forgot Password
         </Heading>

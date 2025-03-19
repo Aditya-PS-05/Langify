@@ -31,7 +31,7 @@ export default function NewPasswordPage() {
             }
           }}
         />
-        <XStack h="100%" pt={26} ai="center" f={1} px="$4">
+        <XStack h="100%" pt={26} ai="center" f={1} px="64">
           <Heading tag="h1" color="$gray_800" fos="$6" fow="700">
             New Password
           </Heading>

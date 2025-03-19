@@ -8,16 +8,18 @@ import "../styles/font.css";
 
 /** @see https://docs.expo.dev/router/advanced/router-settings/#initialroutename */
 export const unstable_settings = {
-  initialRouteName: "index",
+  initialRouteName: "home",
 };
 
 export default function RootLayout() {
   useAppFonts();
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+      
       <View style={{ flex: 1 }}>
         <Provider>
           <Stack>
+          <Stack.Screen name="home" options={{ headerShown: false }} />
             <Stack.Screen name="onboarding" options={{ headerShown: false }} />
             <Stack.Screen name="login" options={{ headerShown: false }} />
             <Stack.Screen name="signup" options={{ headerShown: false }} />
@@ -27,6 +29,7 @@ export default function RootLayout() {
             <Stack.Screen name="newpassword" />
             <Stack.Screen name="wrongpasswordlogin" options={{ headerShown: false }} />
             <Stack.Screen name="index" options={{ headerShown: false }} />
+            {/* <Stack.Screen name="home" options={{ headerShown: false }} /> */}
             <Stack.Screen name="not-found" />
           </Stack>
         </Provider>
